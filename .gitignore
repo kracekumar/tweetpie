@@ -1,0 +1,6 @@
+*.sw[po]
+*.py[co]
+tweetpie/*.py[co]
+tweetpie/*.swp
+
+
