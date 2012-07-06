@@ -28,3 +28,13 @@ def test_get_func_names():
 def test_get_func_details():
     r = t.get_func_details('geo_search')
     nose.tools.assert_is_instance(r, str)
+
+def test_call_geo_reverse_geocode():
+    """ test for geo_reverse_geocode"""
+    r = t.call("geo_reverse_geocode", params={'lat': 37.76893497, \
+                                             'long': -122.42284884})
+    assert r['result']['places'][1]['name'] == u'San Francisco'
+
+
+
+

@@ -132,4 +132,19 @@ ENDPOINTS = {'authenticate': {
 
 
                                                 """
+                                    },
+             'statuses_filter': {
+                                'authentication_required':                      
+            
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
                                     }}
